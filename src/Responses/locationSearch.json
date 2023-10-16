@@ -1,0 +1,340 @@
+{
+  "q": "Pakistan",
+  "rid": "b749d7fd72a0432f868f5f48f526f87a",
+  "rc": "OK",
+  "sr": [
+    {
+      "@type": "gaiaRegionResult",
+      "index": "0",
+      "gaiaId": "1633",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Islamabad, Federal Capital Territory, Pakistan",
+        "shortName": "Islamabad",
+        "displayName": "Islamabad, Federal Capital Territory, Pakistan",
+        "primaryDisplayName": "Islamabad",
+        "secondaryDisplayName": "Federal Capital Territory, Pakistan",
+        "lastSearchName": "Islamabad"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "1633"
+      },
+      "coordinates": {
+        "lat": "33.729389",
+        "long": "73.093147"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "1",
+      "gaiaId": "1809",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Karachi, Sindh, Pakistan",
+        "shortName": "Karachi",
+        "displayName": "Karachi, Sindh, Pakistan",
+        "primaryDisplayName": "Karachi",
+        "secondaryDisplayName": "Sindh, Pakistan",
+        "lastSearchName": "Karachi"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "1809"
+      },
+      "coordinates": {
+        "lat": "24.861462",
+        "long": "67.009941"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "2",
+      "gaiaId": "140",
+      "type": "MULTIREGION",
+      "subtype": "COUNTRY",
+      "regionNames": {
+        "fullName": "Pakistan",
+        "shortName": "Pakistan",
+        "displayName": "Pakistan",
+        "primaryDisplayName": "Pakistan",
+        "secondaryDisplayName": "",
+        "lastSearchName": "Pakistan"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "140"
+      },
+      "coordinates": {
+        "lat": "30.37532",
+        "long": "69.345116"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "3",
+      "gaiaId": "2068",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Lahore, Punjab, Pakistan",
+        "shortName": "Lahore",
+        "displayName": "Lahore, Punjab, Pakistan",
+        "primaryDisplayName": "Lahore",
+        "secondaryDisplayName": "Punjab, Pakistan",
+        "lastSearchName": "Lahore"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "2068"
+      },
+      "coordinates": {
+        "lat": "31.554606",
+        "long": "74.357155"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "4",
+      "gaiaId": "1779",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Skardu, Gilgit-Baltistan, Pakistan",
+        "shortName": "Skardu",
+        "displayName": "Skardu, Gilgit-Baltistan, Pakistan",
+        "primaryDisplayName": "Skardu",
+        "secondaryDisplayName": "Gilgit-Baltistan, Pakistan",
+        "lastSearchName": "Skardu"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "1779"
+      },
+      "coordinates": {
+        "lat": "35.282325",
+        "long": "75.638465"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "5",
+      "gaiaId": "6141511",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Murree, Punjab, Pakistan",
+        "shortName": "Murree",
+        "displayName": "Murree, Punjab, Pakistan",
+        "primaryDisplayName": "Murree",
+        "secondaryDisplayName": "Punjab, Pakistan",
+        "lastSearchName": "Murree"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "6141511"
+      },
+      "coordinates": {
+        "lat": "33.906955",
+        "long": "73.394298"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "6",
+      "gaiaId": "179909",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Rawalpindi, Punjab, Pakistan",
+        "shortName": "Rawalpindi",
+        "displayName": "Rawalpindi, Punjab, Pakistan",
+        "primaryDisplayName": "Rawalpindi",
+        "secondaryDisplayName": "Punjab, Pakistan",
+        "lastSearchName": "Rawalpindi"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "179909"
+      },
+      "coordinates": {
+        "lat": "33.598393",
+        "long": "73.044136"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "7",
+      "gaiaId": "553248635974906372",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Naran, Balakot, Khyber Pakhtunkhwa, Pakistan",
+        "shortName": "Naran",
+        "displayName": "Naran, Balakot, Khyber Pakhtunkhwa, Pakistan",
+        "primaryDisplayName": "Naran",
+        "secondaryDisplayName": "Balakot, Khyber Pakhtunkhwa, Pakistan",
+        "lastSearchName": "Naran"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "553248635974906372"
+      },
+      "coordinates": {
+        "lat": "34.907707",
+        "long": "73.649208"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "8",
+      "gaiaId": "4346697",
+      "type": "AIRPORT",
+      "regionNames": {
+        "fullName": "Islamabad, Pakistan (ISB-Islamabad Intl.)",
+        "shortName": "Islamabad (ISB-Islamabad Intl.)",
+        "displayName": "Islamabad (ISB - Islamabad Intl.), Pakistan",
+        "primaryDisplayName": "Islamabad (ISB - Islamabad Intl.)",
+        "secondaryDisplayName": "Pakistan",
+        "lastSearchName": "Islamabad (ISB - Islamabad Intl.)"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "4346697"
+      },
+      "coordinates": {
+        "lat": "33.556915",
+        "long": "72.835156"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      },
+      "isMinorAirport": "false"
+    },
+    {
+      "@type": "gaiaRegionResult",
+      "index": "9",
+      "gaiaId": "2188",
+      "type": "CITY",
+      "regionNames": {
+        "fullName": "Faisalabad, Punjab, Pakistan",
+        "shortName": "Faisalabad",
+        "displayName": "Faisalabad, Punjab, Pakistan",
+        "primaryDisplayName": "Faisalabad",
+        "secondaryDisplayName": "Punjab, Pakistan",
+        "lastSearchName": "Faisalabad"
+      },
+      "essId": {
+        "sourceName": "GAI",
+        "sourceId": "2188"
+      },
+      "coordinates": {
+        "lat": "31.4205",
+        "long": "73.042"
+      },
+      "hierarchyInfo": {
+        "country": {
+          "name": "Pakistan",
+          "isoCode2": "PK",
+          "isoCode3": "PAK"
+        }
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
