@@ -1,36 +1,35 @@
 import React from "react";
-import HeroCss from "../Css/Hero.module.css";
+import HeroCss from "./Css/Hero.module.css";
+import { useLocation } from "react-router-dom";
 
-function Hero() {
-  return (
-    <div className={HeroCss.hero}>
-      <div className={HeroCss.left}>
-        <div className={HeroCss.heroText}>
-          <div className={HeroCss.heroHeading}>
-            <h3>Discover Pakistan's Hidden Gems</h3>
-            <p>Unveiling the Wonders of the Land of Pure</p>
-          </div>
-        </div>
-        <div className={HeroCss.heroPara}>
-          <p>
-            Salam Pakistan! Welcome to [Travel Company Name], your gateway to
-            the diverse landscapes, rich heritage, and warm hospitality of
-            Pakistan. Embark on a journey that takes you from the bustling
-            markets of Lahore to the serene valleys of Gilgit-Baltistan, and
-            everywhere in between. Get ready for an adventure that promises
-            memories to last a lifetime.
-          </p>
-        </div>
-        <div className={HeroCss.callToButton}>
-          <button>
-            <span class="material-symbols-outlined font-size-2">call</span>
-            <span>START EXPLORING PAKISTAN</span>
-          </button>
-        </div>
+function Hero(props) {
+
+  let location = useLocation()
+
+  if(location.pathname === "/") return (
+    <div class={`${HeroCss.heroText} flex center`}>
+      <div class={`${HeroCss.left} flex justify column`}>
+        <h3>Welcome to CardCrafters</h3>
+        <p class="my1">Where Creativity Meets Greetings</p>
+        <p class="active">
+          Discover a world of exquisite handcrafted cards that are perfect for
+          every occasion.
+        </p>
       </div>
-      <div className={HeroCss.right}></div>
+      <div class={HeroCss.right}></div>
+      <div class={HeroCss.imgs}>
+        <img src="bg1.jpeg" alt="" />
+        <img src="bg2.jpeg" alt="" />
+        <img src="bg3.jpeg" alt="" />
+      </div>
     </div>
   );
+  if(location.pathname === "/contact" || "/about") return (
+    <div style={{width:"100%",margin:'0',textAlign:"center"}} class={`${HeroCss.left} flex center column`}>
+      <h3 className="active">{props.heading}</h3>
+      <p style={{width:"70%"}}>{props.para}</p>
+    </div>
+  )
 }
 
 export default Hero;

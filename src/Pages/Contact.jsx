@@ -1,14 +1,12 @@
-import React, { useEffect, useRef } from "react";
-import ChoosingUs from "./Components/ChoosingUs";
-import Events from "./Components/Events";
-import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
-import JoinCommunity from "./Components/JoinCommunity";
+import React, { useRef, useEffect } from "react";
 import Navbar from "./Components/Navbar";
-import Promises from "./Components/Promises";
+import Footer from "./Components/Footer";
+import ContactForm from "./Components/ContactForm";
+import Hero from "./Components/Hero";
 
-function Home() {
+function Contact() {
   let fade = useRef();
+
   useEffect(() => {
     // Using setTimeout to apply opacity change after a short delay
     setTimeout(() => {
@@ -20,15 +18,15 @@ function Home() {
     <div style={{ opacity: "0", transition: "all 1.5s" }} ref={fade}>
       <div className="hero">
         <Navbar />
-        <Hero />
+        <Hero
+          heading="Contact Us"
+          para="We're thrilled to hear from you! Whether you have a question about our cards, need assistance with an order, or just want to say hello, we're here to help."
+        />
       </div>
-      <Promises />
-      <Events />
-      <ChoosingUs />
-      <JoinCommunity />
+      <ContactForm />
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Contact;

@@ -1,0 +1,50 @@
+.ccard:nth-child(even){
+    flex-direction: row-reverse;
+    
+  }
+  .ccard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 6rem;
+  }
+  .cardText{
+    width: 40%;
+    font-size: 1.2rem;
+  }
+  .cardText p{
+    text-align: left;
+    width: 100%;
+  }
+  .ccard h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .ccard img{
+    max-width: 33rem;
+  }
+  
+  
+  @media only screen and (max-width: 800px){
+    
+    .ccard img{
+      width: 90%;
+    }
+    .cardText{
+      font-size: 1rem;
+    }
+    .ccard{
+      justify-content: center;
+      margin: 0 0;
+      flex-direction: column-reverse;
+    }.cardText{
+      width: 90%;
+    }  .ccard h3{
+      font-size: 1.3rem;
+    }
+    .ccard:nth-child(even){
+      flex-direction: column-reverse;
+    }
+}
+
