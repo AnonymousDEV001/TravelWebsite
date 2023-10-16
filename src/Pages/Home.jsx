@@ -1,32 +1,22 @@
-import React, { useEffect, useRef } from "react";
-import ChoosingUs from "./Components/ChoosingUs";
-import Events from "./Components/Events";
-import Footer from "./Components/Footer";
-import Hero from "./Components/Hero";
-import JoinCommunity from "./Components/JoinCommunity";
+import React from "react";
 import Navbar from "./Components/Navbar";
-import Promises from "./Components/Promises";
+import Hero from "./Components/Hero";
+import FeaturedDestinations from "./Components/FeaturedDestinations";
+import PopularDestinations from "./Components/PopularDestinations";
+import ChooseUs from "./Components/ChooseUs";
+import Testimonials from "./Components/Testimonials";
+import Footer from "./Components/Footer";
 
 function Home() {
-  let fade = useRef();
-  useEffect(() => {
-    // Using setTimeout to apply opacity change after a short delay
-    setTimeout(() => {
-      fade.current.style.opacity = "1";
-    }, 100); // Adjust the delay as needed
-  }, []);
-
   return (
-    <div style={{ opacity: "0", transition: "all 1.5s" }} ref={fade}>
-      <div className="hero">
-        <Navbar />
-        <Hero />
-      </div>
-      <Promises />
-      <Events />
-      <ChoosingUs />
-      <JoinCommunity />
-      <Footer />
+    <div style={{minHeight:"500vh"}}>
+      <Navbar />
+      <Hero />
+      <FeaturedDestinations/>
+      <PopularDestinations/>
+      <ChooseUs/>
+      <Testimonials/>
+      <Footer/>
     </div>
   );
 }

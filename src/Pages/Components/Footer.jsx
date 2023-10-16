@@ -1,16 +1,16 @@
 import React from 'react'
-import FooterCss from './Css/Footer.module.css'
-import NavbarCss from './Css/Navbar.module.css'
+import FooterCss from '../Css/Footer.module.css'
+import FrameSvg from '../../assets/Frame.svg'
 
 function Footer() {
   return (
     <div class={FooterCss.footer}>
     <footer>
       <div class={FooterCss.footerUp}>
-        <div class="flex column">
-          <div class={`flex ${FooterCss.logo} ${NavbarCss.logo} ${FooterCss.margin}`}>
-            <img src="logo.svg" alt="" />
-            <p>Card Crafters</p>
+        <div style={{display:"flex",flexDirection:"column"}}>
+          <div>
+            <img src={FrameSvg} alt="" />
+            <p style={{color:"green"}}>Wander Ways</p>
           </div>
           <div class={FooterCss.contactInfo}>
             <p>Email Address: info@cardcraftershub.com</p>

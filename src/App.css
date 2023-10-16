@@ -1,4 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Mooli&family=Space+Grotesk:wght@500&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --clr-orange :#FF6B35;
+  --clr-lightGrey:rgba(211, 211, 211, 0.208);
+  --clr-navyBlue:#004E89;
+}
+
+
+
 
 /* fallback */
 @font-face {
@@ -24,54 +37,20 @@
   -webkit-font-smoothing: antialiased;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Mooli", sans-serif;
-  /* outline: 1px solid black; */
-}
-a {
-  text-decoration: none;
-}
-body {
-  overflow-x: hidden;
-}
-.flex {
-  display: flex;
-}
 
-.center {
-  justify-content: center;
-  align-items: center;
-}
 
-.justify {
-  justify-content: center;
+.font-size-1{
+  font-size: 1rem;
 }
-
-.column {
-  flex-direction: column;
+.font-size-2{
+  font-size: 2rem;
 }
-
-.my1 {
-  margin: 0.3rem 0;
+.font-size-3{
+  font-size: 3rem;
 }
-
-.active {
-  color: #0085ff;
+.font-size-4{
+  font-size: 4rem;
 }
-.white{
-  color: white;
-}
-.hero {
-  /* background-color: #f3f3f3; */
-  background-color: #dee4ffab;
-  min-height: 30rem;
-}
-.wrap{
-  flex-wrap: wrap;
-}
-.w-90{
-  width: 90%;
+.font-size-5{
+  font-size: 5rem;
 }
