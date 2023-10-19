@@ -1,10 +1,14 @@
-import React from "react";
 import Css from "../Css/Calender.module.css";
 import Weak from "./Weak";
+import React, { useEffect, useState } from "react";
 
 function Calender() {
   let year = new Date().getFullYear();
   let monthIndex = new Date().getMonth();
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
+  let [selectedDate, setSelectedDate] = useState([today, tomorrow]);
   let month = [
     "January",
     "February",
@@ -20,6 +24,20 @@ function Calender() {
     "December",
   ];
 
+  useEffect(() => {
+    if (selectedDate.length > 2) {
+      if (
+        selectedDate[0].getMonth() === selectedDate[2].getMonth() &&
+        selectedDate[0].getMonth() === selectedDate[1].getMonth()
+      ) {
+        if (selectedDate[0].getDate() > selectedDate[2].getDate()) {
+          console.log("done");
+          return setSelectedDate([selectedDate[2]]);
+        }
+      }
+      setSelectedDate([selectedDate[1], selectedDate[2]]);
+    }
+  }, [selectedDate]);
   return (
     <div className={Css.calender}>
       <h3>Calender</h3>
@@ -41,7 +59,14 @@ function Calender() {
           <div className={Css.weaks}>
             <div className={Css.weak}>
               {Array.from(Array(5)).map((_, i) => (
-                <Weak index={i} monthIndex={monthIndex} year={year} />
+                <Weak
+                  key={i}
+                  index={i}
+                  monthIndex={monthIndex}
+                  year={year}
+                  selectedDate={selectedDate}
+                  setSelectedDate={setSelectedDate}
+                />
               ))}
             </div>
           </div>
@@ -64,7 +89,14 @@ function Calender() {
           <div className={Css.weaks}>
             <div className={Css.weak}>
               {Array.from(Array(5)).map((_, i) => (
-                <Weak index={i} monthIndex={monthIndex + 1} year={year} />
+                <Weak
+                  key={i}
+                  index={i}
+                  monthIndex={monthIndex + 1}
+                  year={year}
+                  selectedDate={selectedDate}
+                  setSelectedDate={setSelectedDate}
+                />
               ))}
             </div>
           </div>
