@@ -29,3 +29,9 @@
     margin: 0 1rem;
     color: grey;
 }
+
+.navLink {
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
