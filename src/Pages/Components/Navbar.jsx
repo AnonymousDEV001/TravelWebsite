@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import NavCss from "../Css/Navbar.module.css";
 import logo from "../../assets/Frame.svg";
 
@@ -12,9 +13,9 @@ function Navbar() {
 
       <div className={NavCss.links}>
         <ul>
-          <li>HOME</li>
-          <li>HOTELS</li>
-          <li>CONTACT US</li>
+          <li><Link to="/" className={NavCss.navLink}>HOME</Link></li>
+          <li><Link to="/hotels" className={NavCss.navLink}>HOTELS</Link></li>
+          <li><Link to="/contactUs" className={NavCss.navLink}>CONTACT US</Link></li>
         </ul>
       </div>
     </div>

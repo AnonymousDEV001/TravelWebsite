@@ -8,17 +8,105 @@
 }
 .cards{
     margin: 2rem 0;
-    min-height: 80vh;
     width: 90%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .card{
-    min-height: 25rem;
     width: 15rem;
     background-color: green;
+}
+
+.image_display {
+    width: 35%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: left;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.image_display:hover {
+    animation: shake 2s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    10% {
+        transform: rotateZ(-5deg);
+    }
+    20% {
+        transform: rotateZ(5deg);
+    }
+    30% {
+        transform: rotateZ(-5deg);
+    }
+    40% {
+        transform: rotateZ(5deg);
+    }
+    50% {
+        transform: rotateZ(-5deg);
+    }
+    60% {
+        transform: rotateZ(5deg);
+    }
+    70% {
+        transform: rotateZ(-5deg);
+    }
+    80% {
+        transform: rotateZ(5deg);
+    }
+    90% {
+        transform: rotateZ(-5deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+.container {
+    display: flow-root;
+    width: 100%;
+}
+
+.heading {
+    font-size: 2rem;
+    color: rgb(37, 59, 59);
+    margin-top: 20px;
+    cursor: default;
+}
+
+.text_div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+}
+
+.hotel_price{
+    font-size: 1rem;
+    color: rgb(80, 114, 114);
+}
+
+.hotel_description{
+    font-size: 1rem;
+    opacity: 0.9;
+    color: rgb(37, 59, 59);
+}
+
+.hotel_name{
+    font-size: 3rem;
+    color: rgb(11, 26, 26);
 }
