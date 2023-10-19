@@ -1,3 +1,53 @@
+
+.calender {
+  min-height: 10rem;
+  left: 0;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.268);
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 4.5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.year {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.calenderContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.days {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(7, 1fr);
+}
+.days p {
+  padding: 0.5rem;
+}
+
+.weak {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.weak p {
+  text-align: center;
+  padding: 0.5rem;
+}
+=======
 .calender {
   min-height: 10rem;
   left: 0;

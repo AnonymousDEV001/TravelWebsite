@@ -15,7 +15,7 @@ function HeroForDetails() {
         </div>
         <div className={Css.middle}>
           <div className={Css.date}>
-            <span class={`material-symbols-outlined ${Css.calenderIcon}`}>calendar_today</span> Tue,
+            <span className={`material-symbols-outlined ${Css.calenderIcon}`}>calendar_today</span> Tue,
             Nov 21 — Tue, Nov 28
           </div>
           <Calender/>
